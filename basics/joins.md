@@ -12,7 +12,7 @@ Inner join produces only the set of records that match in both Table A and Table
 </p>
 
 ## Left Join or Left outer join
-Left outer join produces a complete set of records from Table A, with the matching records (where available) in Table B. If there is no match, the right side will contain null.
+Left outer join produces a complete set of records from Table A, with the matching records (where available) in Table B. If there is no match, the right side will contain null or blank or zero (depending on the system)
 
     SELECT * FROM tableA
     LEFT OUTER JOIN tableB
