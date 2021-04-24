@@ -64,5 +64,5 @@ Full outer join produces the set of all records in Table A and Table B, with mat
       ON tableA.column_name = tableB.column_name
 
 <p align="center">
-  <img src="https://github.com/datatechdemo/sql/blob/main/basics/full-outer-join1.png">
+  <img src="https://github.com/datatechdemo/sql/blob/main/basics/full-outer-join2.png">
 </p>
