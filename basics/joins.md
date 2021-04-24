@@ -30,7 +30,7 @@ But if you want to produce the data only from Table A, but not in Table B, we pe
     WHERE tableB.id IS null;
  
 <p align="center">
-  <img src="https://github.com/datatechdemo/sql/blob/main/basics/Inner-join.PNG">
+  <img src="https://github.com/datatechdemo/sql/blob/main/basics/left-join2.PNG">
 </p>
  
 ## Right Join or Right Outer Join
@@ -41,7 +41,7 @@ Right outer join produces a complete set of records from Table B, with the match
     ON tableA.column_name = tableB.column_name;
   
 <p align="center">
-  <img src="https://github.com/datatechdemo/sql/blob/main/basics/Inner-join.PNG">
+  <img src="https://github.com/datatechdemo/sql/blob/main/basics/right-join1.PNG">
 </p>  
 
 But if you want to produce the data only from Table B, but not in Table A, we perform the same right outer join, use where clause to exclude the records we don't want from TableA.
@@ -52,7 +52,7 @@ But if you want to produce the data only from Table B, but not in Table A, we pe
     WHERE tableA.id IS null;
 
 <p align="center">
-  <img src="https://github.com/datatechdemo/sql/blob/main/basics/Inner-join.PNG">
+  <img src="https://github.com/datatechdemo/sql/blob/main/basics/right-join2.PNG">
 </p>
 
 ## Full Outer Join or Full Join
@@ -64,12 +64,12 @@ Full outer join produces the set of all records in Table A and Table B, with mat
       ON tableA.column_name = tableB.column_name
 
 <p align="center">
-  <img src="https://github.com/datatechdemo/sql/blob/main/basics/Inner-join.PNG">
+  <img src="https://github.com/datatechdemo/sql/blob/main/basics/full-outer-join1.PNG">
 </p>
 
 2nd Full Outer Join
 
 <p align="center">
-  <img src="https://github.com/datatechdemo/sql/blob/main/basics/Inner-join.PNG">
+  <img src="https://github.com/datatechdemo/sql/blob/main/basics/full-outer-join2.PNG">
 </p>
 
