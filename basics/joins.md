@@ -6,12 +6,9 @@ Inner join produces only the set of records that match in both Table A and Table
       SELECT * FROM tableA
       INNER JOIN tableB
       ON tableA.column_name = tableB.column_name;
- 
-
-![alt text](https://github.com/datatechdemo/sql/blob/main/basics/Inner-join.PNG)
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/datatechdemo/sql/blob/main/basics/Inner-join.PNG">
+  <img width="200" height="200" src="https://github.com/datatechdemo/sql/blob/main/basics/Inner-join.PNG">
 </p>
 
 ## Left Join or Left outer join
