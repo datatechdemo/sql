@@ -22,7 +22,7 @@ Left outer join produces a complete set of records from Table A, with the matchi
   <img src="https://github.com/datatechdemo/sql/blob/main/basics/left-join1.PNG">
 </p>
 
-But if you want to produce the data only from Table A, but not in Table B, we perform the same left outer join, use where clause to exclude the records we don't want from TableB.
+But if you want to produce the records only from Table A, but not in Table B, we perform the same left outer join but use where clause it will exclude all records of Table B and also records of Table A which matches with Table B.
  
     SELECT * FROM tableA
     LEFT OUTER JOIN TableB
@@ -44,7 +44,7 @@ Right outer join produces a complete set of records from Table B, with the match
   <img src="https://github.com/datatechdemo/sql/blob/main/basics/right-join1.PNG">
 </p>  
 
-But if you want to produce the data only from Table B, but not in Table A, we perform the same right outer join, use where clause to exclude the records we don't want from TableA.
+But if you want to produce the records only from Table B, but not in Table A, we perform the same left outer join but use where clause it will exclude all records of Table A and also records of Table B which matches with Table A.
  
     SELECT * FROM tableA
     Right OUTER JOIN tableB
@@ -56,7 +56,7 @@ But if you want to produce the data only from Table B, but not in Table A, we pe
 </p>
 
 ## Full Outer Join or Full Join
-Full outer join produces the set of all records in Table A and Table B, with matching records from both sides where available. If there is no match, the missing side will contain null.
+Full outer join produces the set of all records in Table A and Table B, with matching records from both sides where available. If there is no match, the missing side will contain null or blank or zero (depending on the system)
 
       SELECT *
       FROM tableA
