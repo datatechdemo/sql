@@ -8,7 +8,7 @@ Inner join produces only the set of records that match in both Table A and Table
       ON tableA.column_name = tableB.column_name;
 
 <p align="center">
-  <img width="200" height="200" src="https://github.com/datatechdemo/sql/blob/main/basics/Inner-join.PNG">
+  <img src="https://github.com/datatechdemo/sql/blob/main/basics/Inner-join.PNG">
 </p>
 
 ## Left Join or Left outer join
