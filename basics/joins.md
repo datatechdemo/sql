@@ -6,6 +6,9 @@ Inner join produces only the set of records that match in both Table A and Table
       SELECT * FROM tableA
       INNER JOIN tableB
       ON tableA.column_name = tableB.column_name;
+ 
+ Inline-style: 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
 ## Left Join or Left outer join
 Left outer join produces a complete set of records from Table A, with the matching records (where available) in Table B. If there is no match, the right side will contain null.
