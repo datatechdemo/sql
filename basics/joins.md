@@ -19,7 +19,7 @@ Left outer join produces a complete set of records from Table A, with the matchi
     ON tableA.column_name = tableB.column_name;
  
 <p align="center">
-  <img src="https://github.com/datatechdemo/sql/blob/main/basics/Inner-join.PNG">
+  <img src="https://github.com/datatechdemo/sql/blob/main/basics/left-join1.PNG">
 </p>
 
 But if you want to produce the data only from Table A, but not in Table B, we perform the same left outer join, use where clause to exclude the records we don't want from TableB.
