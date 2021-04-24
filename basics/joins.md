@@ -7,8 +7,12 @@ Inner join produces only the set of records that match in both Table A and Table
       INNER JOIN tableB
       ON tableA.column_name = tableB.column_name;
  
- Inline-style: 
+
 ![alt text](https://github.com/datatechdemo/sql/blob/main/basics/Inner-join.PNG)
+
+<p align="center">
+  <img width="460" height="300" src="https://github.com/datatechdemo/sql/blob/main/basics/Inner-join.PNG">
+</p>
 
 ## Left Join or Left outer join
 Left outer join produces a complete set of records from Table A, with the matching records (where available) in Table B. If there is no match, the right side will contain null.
