@@ -1,0 +1,16 @@
+{
+	"name": "SourceDataset_0ua",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "GoogleBigQueryConnection",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "GoogleBigQueryObject",
+		"schema": [],
+		"typeProperties": {
+			"dataset": "SQLdemo",
+			"table": "DEPARTMENT"
+		}
+	}
+}
